@@ -5,7 +5,7 @@ def start_server():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     # Set ip/domain and port
-    server_address = ('localhost', 4442)
+    server_address = ('localhost', 4446)
 
     # Bind ip and port to socket
     server_socket.bind(server_address)
